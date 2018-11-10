@@ -12,7 +12,7 @@ class App extends Component {
 
   render() {
     const Welcome = (props) => <h1>Hola {props.name}</h1>;
-    return (
+    return ( 
       <div>
         {this.state.names.map((name) =>
           <Welcome name={name} />
