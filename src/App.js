@@ -11,6 +11,7 @@ class App extends Component {
   }
 
   render() {
+    const Welcome = (props) => <h1>Hola {props.name}</h1>;
     return (
       <div>
         {this.state.names.map((name) =>
